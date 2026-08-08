@@ -42,6 +42,8 @@ The project determines the number of shares purchased, final investment value, p
 
 **Concepts:** Investment returns, historical performance, equity analysis.
 
+<img width="841" height="441" alt="image" src="https://github.com/user-attachments/assets/a1733d8a-fa3c-42db-84e7-780c1411acce" />
+
 [View project](./investment-growth-calculator)
 
 ---
