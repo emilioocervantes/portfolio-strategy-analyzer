@@ -28,6 +28,8 @@ Calculates cumulative returns, annualized return, annualized volatility, and Sha
 
 **Concepts:** Portfolio analysis, risk, return, volatility, Sharpe ratio.
 
+<img width="833" height="470" alt="image" src="https://github.com/user-attachments/assets/aa8027a0-fedb-4e10-93a0-12096ecc9a6f" />
+
 [View project](./portfolio-risk-return-analyzer)
 
 ---
