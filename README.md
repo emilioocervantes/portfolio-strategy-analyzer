@@ -16,6 +16,8 @@ The model identifies the simulated portfolio with the highest Sharpe ratio and t
 
 **Concepts:** Portfolio optimization, Monte Carlo simulation, expected return, volatility, Sharpe ratio.
 
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/beb3aa87-8bdf-4fc8-88fd-620b56ec8571" />
+
 [View project](./monte-carlo-portfolio-optimizer)
 
 ---
@@ -55,6 +57,8 @@ Compares historical market data across multiple public companies.
 Allows different market data fields such as Open, High, Low, Close, and Volume to be compared visually over a selected period.
 
 **Concepts:** Market data analysis, equity performance, financial visualization.
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/3d0c796c-db92-4128-bcb0-4803a507192e" />
 
 [View project](./stock-comparison-dashboard)
 
