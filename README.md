@@ -1,4 +1,4 @@
-﻿# Python for Finance Projects
+﻿# Python for Financial Analysis Projects
 
 A collection of Python projects exploring financial markets, portfolio analysis, quantitative finance, and financial data visualization.
 
