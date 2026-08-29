@@ -7,7 +7,7 @@ from portfolio import (
 )
 
 
-# Monte Carlo Sim---------------------------------------------------------------------------------------
+#Monte Carlo Simulation
 
 def simulate_portfolios(
     number_of_portfolios,
@@ -47,7 +47,7 @@ def simulate_portfolios(
             risk_free_rate
         )
 
-        #Finally storing the simulated portfolio results
+        #Storing the simulated portfolio results
         simulated_returns.append(portfolio_return)
         simulated_volatilities.append(portfolio_volatility)
         simulated_sharpes.append(sharpe_ratio)
