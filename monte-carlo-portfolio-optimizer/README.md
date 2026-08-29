@@ -7,7 +7,7 @@ The program:
 * Downloads historical stock prices with `yfinance`
 * Calculates annualized returns and covariance
 * Measures portfolio return, volatility, and Sharpe ratio
-* Simulates thousands of random portfolios
+* Simulates 10,000 random portfolio allocations
 * Identifies the portfolio with the highest Sharpe ratio
 * Identifies the portfolio with the lowest volatility
 * Generates a risk-return chart
