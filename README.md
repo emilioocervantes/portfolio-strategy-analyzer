@@ -10,7 +10,7 @@ By Emilio Ortiz Cervantes - [LinkedIn](https://www.linkedin.com/in/emilioortizce
 
 ### 1. Monte Carlo Portfolio Optimizer
 
-Simulates thousands of portfolio allocations using historical market data to analyze expected return, volatility, and risk-adjusted performance.
+Simulates 10,000 portfolio allocations using historical market data to analyze expected return, volatility, and risk-adjusted performance.
 
 The model identifies the simulated portfolio with the highest Sharpe ratio and the portfolio with the lowest volatility, while generating a risk-return visualization.
 
