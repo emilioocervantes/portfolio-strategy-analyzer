@@ -1,4 +1,4 @@
-# Monte Carlo Portfolio Simulator
+# Monte Carlo Portfolio Optimizer
 
 A Python project that uses historical market data and Monte Carlo simulation to analyze different portfolio allocations.
 
