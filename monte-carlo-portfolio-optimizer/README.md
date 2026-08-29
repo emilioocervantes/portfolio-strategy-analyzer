@@ -26,8 +26,8 @@ README.md
 ## Installation
 
 ```bash
-git clone https://github.com/emilioocervantes/python-for-finance-projects.git
-cd python-for-finance-projects/project_4_portfolio_optimizer
+git clone https://github.com/emilioocervantes/python-financial-analysis.git
+cd python-financial-analysis/monte-carlo-portfolio-optimizer
 pip install -r requirements.txt
 ```
 
