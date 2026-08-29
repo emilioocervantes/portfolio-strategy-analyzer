@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-#User inputs---------------------------------------------------------------------------------------------------
+#User inputs
 
 tickers = ["CAT", "KO", "MAR", "HD", "TRV"]
 start_date = "2021-01-01"
@@ -20,7 +20,7 @@ investment_amount = 1000000
 investment_duration_years = 10
 
 
-#Market data---------------------------------------------------------------------------------------------------
+#Market data
 
 prices = download_prices(tickers, start_date)
 returns = prices.pct_change().dropna()
@@ -35,7 +35,7 @@ print("\nAnnual covariance matrix:")
 print(covariance_matrix)
 
 
-#Equal-weight portfolio scenario-----------------------------------------------------------------------------------------
+#Equal-weight portfolio scenario
 
 equal_weights = np.ones(len(tickers)) / len(tickers)
 
@@ -61,7 +61,7 @@ print(f"Volatility: {equal_volatility:.2%}")
 print(f"Sharpe ratio: {equal_sharpe:.2f}")
 
 
-#Monte Carlo simulation--------------------------------------------------------------------------------------
+#Monte Carlo simulation
 
 (
     simulated_returns,
@@ -77,7 +77,7 @@ print(f"Sharpe ratio: {equal_sharpe:.2f}")
 )
 
 
-# Find the simulated portfolio with the highest Sharpe ratio
+#Find the simulated portfolio with the highest Sharpe ratio
 maximum_sharpe_index = np.argmax(simulated_sharpes)
 
 maximum_sharpe = simulated_sharpes[maximum_sharpe_index]
@@ -96,7 +96,7 @@ for ticker, weight in zip(tickers, maximum_sharpe_weights):
     print(f"{ticker}: {weight:.2%}")
 
 
-# Find the simulated portfolio with the lowest volatility
+#Find the simulated portfolio with the lowest volatility
 minimum_volatility_index = np.argmin(simulated_volatilities)
 
 minimum_volatility = simulated_volatilities[minimum_volatility_index]
@@ -114,7 +114,7 @@ print("\nWeights:")
 for ticker, weight in zip(tickers, minimum_volatility_weights):
     print(f"{ticker}: {weight:.2%}")
 
-#Perspective help------------------------------------------------------------------------------------------------
+#Perspective
 
 investment_amount_final = investment_amount * (1 + maximum_sharpe_return) ** investment_duration_years
 
@@ -122,11 +122,11 @@ print(
     f"\nIf you invest ${investment_amount:,.0f} in the maximum sharpe portfolio, considering the expected return over {investment_duration_years} years, you should have ${investment_amount_final:,.2f}."
 )
 
-#Credit----------------------------------------------------------------------------------------------------------
+#Credit
 
 print("\nMade by Emilio Ortiz Cervantes")
 
-# Chart----------------------------------------------------------------------------------------------------------
+#Charts
 
 plt.scatter(
     simulated_volatilities,
@@ -158,5 +158,5 @@ plt.colorbar(label="Sharpe Ratio")
 plt.legend()
 plt.tight_layout()
 
-# Open the chart in a window
+#Open the chart in a window
 plt.show()
