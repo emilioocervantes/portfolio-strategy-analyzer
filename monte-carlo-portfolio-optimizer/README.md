@@ -37,11 +37,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The program will print the portfolio results and generate:
-
-```text
-monte_carlo_simulation.png
-```
 
 ## Requirements
 
