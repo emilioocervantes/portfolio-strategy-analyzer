@@ -1,4 +1,4 @@
-from market_data import download_prices
+tfrom market_data import download_prices
 from portfolio import (
     calculate_portfolio_return,
     calculate_portfolio_volatility,
@@ -12,12 +12,12 @@ import numpy as np
 
 #User inputs
 
-tickers = ["APP"]
+tickers = ["APP", "ORCL", "SOXS", "NKE", "VT"]
 start_date = "2021-01-01"
 risk_free_rate = 0.04
 number_of_portfolios = 10000
-investment_amount = 1000000
-investment_duration_years = 10
+investment_amount = 589
+investment_duration_years = 1
 
 
 #Market data
